@@ -1,0 +1,26 @@
+<templateSet group="user">
+  <template name="clo" value="console.log($string$);" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ( $statement$ ) {&#10;    $body$&#10;}" description="if statement" toReformat="false" toShortenFQNames="true">
+    <variable name="statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ifelse" value="if ( $if$ ) {&#10;    $body$&#10;} else {&#10;    $else$&#10;}" description="if else statement" toReformat="false" toShortenFQNames="true">
+    <variable name="if" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="else" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

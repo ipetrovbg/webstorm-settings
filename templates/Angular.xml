@@ -1,0 +1,3 @@
+<templateSet group="Angular">
+  <template name="clog" value="console.log($)" description="console.log()" toReformat="true" toShortenFQNames="true" />
+</templateSet>
